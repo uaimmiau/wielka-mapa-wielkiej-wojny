@@ -25,8 +25,10 @@
 {
     display: block;
     position: relative;
-    bottom: 2rem;
-    left: 0.7rem;
+    bottom: 1.6rem;
+    left: 0.8rem;
+    color: #333;
+    font-size: 0.9rem;
 }
 /* Kolumny */
 .col
@@ -59,9 +61,6 @@
 }
 .lpk{
     background-image: url(img/lpk.png);
-}
-.pojemniczek a{
-    color: #333;
 }
 .dse + a{
     color: #8BE4FF;
@@ -271,4 +270,34 @@
 #h0222,
 #h0223{
     background-image: url(img/belgia.png);
+}
+
+/* Stolice neutralne */
+#h2006, #h1908, #h1114, #h1214, #h1314, #h1515, #h0617, #h0818, #h1918, #h0620, #h1824, #h1924, #h1626, #h2126{
+    content: url(img/stolyca.png);
+}
+/* Stolice ententa */
+#h1111, #h1512, #h0724, #h1724{
+    content: url(img/stolyca_e.png);
+}
+/* Stolice centralne */
+#h1118, #h1520, #h1726, #h1828{
+    content: url(img/stolyca_c.png);
+}
+
+/* Mosty */
+.most_t{
+    content: url(img/most_t.png);
+}
+.most_b{
+    content: url(img/most_b.png);
+}
+.most_l{
+    content: url(img/most_l.png);
+}
+.most_r{
+    content: url(img/most_r.png);
+}
+#h1828{
+    content: url(img/stambul.png);
 }

@@ -5,7 +5,6 @@ const h0909 = document.getElementById('h0909');
 const h1729 = document.getElementById('h1729');
 const h1829 = document.getElementById('h1829');
 const h1830 = document.getElementById('h1830');
-const h1828 = document.getElementById('h1828');
 
 
 //Mosty dla pana starosty

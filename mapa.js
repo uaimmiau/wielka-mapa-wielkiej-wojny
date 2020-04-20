@@ -28,3 +28,11 @@ document.getElementById('h0908').src = "img/most_t.png";
 document.getElementById('h1729').src = "img/most_t.png";
 document.getElementById('h1008').src = "img/most_b.png";
 document.getElementById('h1829').src = "img/most_b.png";
+
+//Trudne warunki nieatfosmeryczne
+var tabTrudneWarunki = ["h0219", "h0220", "h0221", "h0222", "h0223", "h0318", "h0319", "h0320", "h0322", "h0323", "h0324", "h0418", "h0423", "h0424", "h0524", "h0525", "h0725", "h0825", "h0925", "h0926", "h0927", "h1235", "h1334", "h1335", "h1422", "h1424", "h1425", "h1434", "h1513", "h1516", "h1517", "h1518", "h1519", "h1614", "h1615", "h1616", "h1617", "h1618", "h1635", "h1709", "h1716", "h1734", "h1810"];
+var liczbaTrudnychWarunkow = tabTrudneWarunki.length;
+for(i = 0; i < liczbaTrudnychWarunkow; i++){
+    document.getElementById(tabTrudneWarunki[i]).src = "img/gory.png";
+}
+document.getElementById('h1515').src = "img/eeee.png";

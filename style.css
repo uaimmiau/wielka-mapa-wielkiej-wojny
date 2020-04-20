@@ -6,6 +6,7 @@
 {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 /* MAPA */
@@ -58,6 +59,12 @@
 }
 .lpk{
     background-image: url(img/lpk.png);
+}
+.pojemniczek a{
+    color: #333;
+}
+.dse + a{
+    color: #8BE4FF;
 }
 
 /* UPOŚLEDZONY BRUTE FORCE PROSZE PATRZEC NA WLASNĄ ODPOWIEDZIALNOŚĆ */
@@ -247,10 +254,21 @@
 }
 /* Portugalia */
 #h1906,	#h2006,	#h2106{
-    background-image: url(img/portugalia.png);
+    background-image: url(img/rumunia.png);
 }
 /* Rumunia */
 #h1426, #h1626,
 #h1427,	#h1527,	#h1627{
     background-image: url(img/rumunia.png);
+}
+/* Norwegia */
+#h0516,	#h0616,
+#h0317,	#h0417,	#h0517,	#h0617,
+#h0318,
+#h0219,
+#h0220,
+#h0221,
+#h0222,
+#h0223{
+    background-image: url(img/belgia.png);
 }

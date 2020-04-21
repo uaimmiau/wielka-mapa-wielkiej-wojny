@@ -8,12 +8,21 @@
     margin: 0;
     font-family: sans-serif;
 }
-
+body
+{
+    background-color: #ccc;
+}
 /* MAPA */
 #mapa
 {
     display: flex;
-    margin: 2rem;
+    padding: 2rem;
+    width: 1070px;
+}
+#container
+{
+    display: flex;
+    background-color: #ccc;
 }
 /* Pojedynczy hex */
 .pojemniczek
@@ -61,6 +70,9 @@
 }
 .lpk{
     background-image: url(img/lpk.png);
+}
+.voi{
+    background-image: url(img/voi.png);
 }
 .dse + a{
     color: #8BE4FF;
@@ -272,3 +284,32 @@
     background-image: url(img/belgia.png);
 }
 
+/* mmm Stopka */
+hr{
+    margin: 1rem;
+}
+#stopka p{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+/* OPISY */
+
+#opis{
+    min-width: 40rem;
+    height: 18rem;
+    margin-top: 6rem;
+    border: 1px solid #333;
+    padding: 3rem;
+}
+h1{
+    font-size: 5.8rem;
+}
+h2{
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}

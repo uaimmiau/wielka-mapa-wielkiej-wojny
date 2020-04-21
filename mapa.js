@@ -36,3 +36,189 @@ for(i = 0; i < liczbaTrudnychWarunkow; i++){
     document.getElementById(tabTrudneWarunki[i]).src = "img/gory.png";
 }
 document.getElementById('h1515').src = "img/eeee.png";
+
+
+//ROBIENIE OPISÓW
+
+let tab = [];
+
+fetch("opisy.json").then( res => {
+    return res.json();
+}).then(tabOpisy => {
+    tab = tabOpisy;
+}).catch( err => {
+    console.error(err);
+});
+
+const h2006= document.getElementById('h2006');
+const h1908= document.getElementById('h1908');
+const h1114= document.getElementById('h1114');
+const h1214= document.getElementById('h1214');
+const h1314= document.getElementById('h1314');
+const h1515= document.getElementById('h1515');
+const h0617= document.getElementById('h0617');
+const h0818= document.getElementById('h0818');
+const h1918= document.getElementById('h1918');
+const h0620= document.getElementById('h0620');
+const h1824= document.getElementById('h1824');
+const h1924= document.getElementById('h1924');
+const h1626= document.getElementById('h1626');
+const h2126= document.getElementById('h2126');
+const h1111= document.getElementById('h1111');
+const h1512= document.getElementById('h1512');
+const h0724= document.getElementById('h0724');
+const h1724= document.getElementById('h1724');
+const h1118= document.getElementById('h1118');
+const h1520= document.getElementById('h1520');
+const h1726= document.getElementById('h1726');
+const h1828= document.getElementById('h1828');
+const kraj = document.getElementById('kraj');
+const stolica = document.getElementById('stolica');
+const wladca = document.getElementById('wladca');
+const stabilnosc = document.getElementById('stabilnosc');
+
+h2006.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[21].kraj;
+    stolica.innerText = tab[21].stolica;
+    wladca.innerText = tab[21].wladca;
+    stabilnosc.innerText = tab[21].stabilnosc;
+});
+h1908.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[20].kraj;
+    stolica.innerText = tab[20].stolica;
+    wladca.innerText = tab[20].wladca;
+    stabilnosc.innerText = tab[20].stabilnosc;
+});
+h1114.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[11].kraj;
+    stolica.innerText = tab[11].stolica;
+    wladca.innerText = tab[11].wladca;
+    stabilnosc.innerText = tab[11].stabilnosc;
+});
+h1214.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[12].kraj;
+    stolica.innerText = tab[12].stolica;
+    wladca.innerText = tab[12].wladca;
+    stabilnosc.innerText = tab[12].stabilnosc;
+});
+h1314.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[13].kraj;
+    stolica.innerText = tab[13].stolica;
+    wladca.innerText = tab[13].wladca;
+    stabilnosc.innerText = tab[13].stabilnosc;
+});
+h1515.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[14].kraj;
+    stolica.innerText = tab[14].stolica;
+    wladca.innerText = tab[14].wladca;
+    stabilnosc.innerText = tab[14].stabilnosc;
+});
+h0617.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[8].kraj;
+    stolica.innerText = tab[8].stolica;
+    wladca.innerText = tab[8].wladca;
+    stabilnosc.innerText = tab[8].stabilnosc;
+});
+h0818.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[10].kraj;
+    stolica.innerText = tab[10].stolica;
+    wladca.innerText = tab[10].wladca;
+    stabilnosc.innerText = tab[10].stabilnosc;
+});
+h1918.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[19].kraj;
+    stolica.innerText = tab[19].stolica;
+    wladca.innerText = tab[19].wladca;
+    stabilnosc.innerText = tab[19].stabilnosc;
+});
+h0620.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[9].kraj;
+    stolica.innerText = tab[9].stolica;
+    wladca.innerText = tab[9].wladca;
+    stabilnosc.innerText = tab[9].stabilnosc;
+});
+h1824.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[16].kraj;
+    stolica.innerText = tab[16].stolica;
+    wladca.innerText = tab[16].wladca;
+    stabilnosc.innerText = tab[16].stabilnosc;
+});
+h1924.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[17].kraj;
+    stolica.innerText = tab[17].stolica;
+    wladca.innerText = tab[17].wladca;
+    stabilnosc.innerText = tab[17].stabilnosc;
+});
+h1626.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[15].kraj;
+    stolica.innerText = tab[15].stolica;
+    wladca.innerText = tab[15].wladca;
+    stabilnosc.innerText = tab[15].stabilnosc;
+});
+h2126.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[18].kraj;
+    stolica.innerText = tab[18].stolica;
+    wladca.innerText = tab[18].wladca;
+    stabilnosc.innerText = tab[18].stabilnosc;
+});
+h1111.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[4].kraj;
+    stolica.innerText = tab[4].stolica;
+    wladca.innerText = tab[4].wladca;
+    stabilnosc.innerText = tab[4].stabilnosc;
+});
+h1512.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[5].kraj;
+    stolica.innerText = tab[5].stolica;
+    wladca.innerText = tab[5].wladca;
+    stabilnosc.innerText = tab[5].stabilnosc;
+});
+h0724.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[6].kraj;
+    stolica.innerText = tab[6].stolica;
+    wladca.innerText = tab[6].wladca;
+    stabilnosc.innerText = tab[6].stabilnosc;
+});
+h1724.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[7].kraj;
+    stolica.innerText = tab[7].stolica;
+    wladca.innerText = tab[7].wladca;
+    stabilnosc.innerText = tab[7].stabilnosc;
+});
+h1118.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[0].kraj;
+    stolica.innerText = tab[0].stolica;
+    wladca.innerText = tab[0].wladca;
+    stabilnosc.innerText = tab[0].stabilnosc;
+});
+h1520.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[1].kraj;
+    stolica.innerText = tab[1].stolica;
+    wladca.innerText = tab[1].wladca;
+    stabilnosc.innerText = tab[1].stabilnosc;
+});
+h1726.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[3].kraj;
+    stolica.innerText = tab[3].stolica;
+    wladca.innerText = tab[3].wladca;
+    stabilnosc.innerText = tab[3].stabilnosc;
+});
+h1828.addEventListener('mouseenter', e => { 
+    kraj.innerText = tab[2].kraj;
+    stolica.innerText = tab[2].stolica;
+    wladca.innerText = tab[2].wladca;
+    stabilnosc.innerText = tab[2].stabilnosc;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

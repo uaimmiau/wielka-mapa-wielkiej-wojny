@@ -1,0 +1,154 @@
+[
+    {
+        "kraj": "Niemcy",
+        "stolica": "Berlin",
+        "wladca": "Cesarz Wilhelm II",
+        "stabilnosc": "Sytuacja w Niemczech jest stabilna"
+
+    },    
+    {
+        "kraj": "Austro-Węgry",
+        "stolica": "Wiedeń",
+        "wladca": "Cesarz Franciszek Józef",
+        "stabilnosc": "Sytuacja w Austro-Węgrzech jest stabilna"
+
+    },
+    {
+        "kraj": "Imperium Osmańskie",
+        "stolica": "Konstantynopol",
+        "wladca": "Sułtan Mehmed V",
+        "stabilnosc": "Sytuacja w Turcji jest stabilna"
+
+    },
+    {
+        "kraj": "Bułgaria",
+        "stolica": "Sofia",
+        "wladca": "Car Ferdynand I",
+        "stabilnosc": "Sytuacja w Bułgarii jest stabilna"
+
+    },
+    {
+        "kraj": "Wielka Brytania",
+        "stolica": "Londyn",
+        "wladca": "Król Jerzy V",
+        "stabilnosc": "Sytuacja w Wielkiej Brytanii jest stabilna"
+
+    },
+    {
+        "kraj": "Francja",
+        "stolica": "Paryż",
+        "wladca": "Prezydent Raymond Poincare",
+        "stabilnosc": "Sytuacja we Francji jest stabilna"
+
+    },
+    {
+        "kraj": "Rosja",
+        "stolica": "Petersburg",
+        "wladca": "Car Mikołaj II",
+        "stabilnosc": "Sytuacja w Rosji jest stabilna"
+
+    },
+    {
+        "kraj": "Serbia",
+        "stolica": "Belgrad",
+        "wladca": "Król Piotr I",
+        "stabilnosc": "Sytuacja w Serbii jest stabilna"
+
+    },
+    {
+        "kraj": "Norwegia",
+        "stolica": "Oslo",
+        "wladca": "Król Haakon VII",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },
+    {
+        "kraj": "Szwecja",
+        "stolica": "Sztokholm",
+        "wladca": "Król Gustaw V",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Dania",
+        "stolica": "Kopenhaga",
+        "wladca": "Król Chrystian X",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Holandia",
+        "stolica": "Amsterdam",
+        "wladca": "Królowa Wilhelmina",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Belgia",
+        "stolica": "Bruksela",
+        "wladca": "Król Albert I",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Luksemburg",
+        "stolica": "Luksemburg",
+        "wladca": "Księżna Maria Adelajda",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },
+    {
+        "kraj": "Szwajcaria",
+        "stolica": "Berno",
+        "wladca": "Prezydent Arthur Hoffmann",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+    },
+    {
+        "kraj": "Rumunia",
+        "stolica": "Bukareszt",
+        "wladca": "Król Ferdynand I",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Czarnogóra",
+        "stolica": "Cetinje",
+        "wladca": "Król Mikołaj I",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Albania",
+        "stolica": "Tirana",
+        "wladca": "Książe Wilhelm I",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Grecja",
+        "stolica": "Ateny",
+        "wladca": "Król Konstantyn I",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Włochy",
+        "stolica": "Rzym",
+        "wladca": "Król Wiktor Emanuel III",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    },    
+    {
+        "kraj": "Hiszpania",
+        "stolica": "Madryt",
+        "wladca": "Król Alfons XIII",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+    },    
+    {
+        "kraj": "Portugalia",
+        "stolica": "Lizbona",
+        "wladca": "Prezydent Manuel de Arriaga",
+        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+
+    }
+]

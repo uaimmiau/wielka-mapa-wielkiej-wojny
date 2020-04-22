@@ -40,7 +40,7 @@ document.getElementById('h1515').src = "img/eeee.png";
 
 //ROBIENIE OPISÓW
 
-let tab = [
+let tabOpisow = [
     {
         kraj: "Niemcy",
         stolica: "Berlin",
@@ -142,8 +142,8 @@ let tab = [
     {
         kraj: "Szwajcaria",
         stolica: "Berno",
-        wladca: "Prezydent Arthur Hoffmann",
-        stabilnosc: "Ogląda wojnę z bezpiecznej odległości"
+        wladca: "Rada federalna",
+        stabilnosc: "Ściśle neutralna"
     },
     {
         kraj: "Rumunia",
@@ -198,7 +198,7 @@ let tab = [
 // fetch("opisy.json").then( res => {
 //     return res.json();
 // }).then(tabOpisy => {
-//     tab = tabOpisy;
+//     tabOpisow = tabOpisy;
 // }).catch( err => {
 //     console.error(err);
 // });
@@ -231,136 +231,159 @@ const wladca = document.getElementById('wladca');
 const stabilnosc = document.getElementById('stabilnosc');
 
 h2006.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[21].kraj;
-    stolica.innerText = tab[21].stolica;
-    wladca.innerText = tab[21].wladca;
-    stabilnosc.innerText = tab[21].stabilnosc;
+    kraj.innerText = tabOpisow[21].kraj;
+    stolica.innerText = tabOpisow[21].stolica;
+    wladca.innerText = tabOpisow[21].wladca;
+    stabilnosc.innerText = tabOpisow[21].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1908.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[20].kraj;
-    stolica.innerText = tab[20].stolica;
-    wladca.innerText = tab[20].wladca;
-    stabilnosc.innerText = tab[20].stabilnosc;
+    kraj.innerText = tabOpisow[20].kraj;
+    stolica.innerText = tabOpisow[20].stolica;
+    wladca.innerText = tabOpisow[20].wladca;
+    stabilnosc.innerText = tabOpisow[20].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1114.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[11].kraj;
-    stolica.innerText = tab[11].stolica;
-    wladca.innerText = tab[11].wladca;
-    stabilnosc.innerText = tab[11].stabilnosc;
+    kraj.innerText = tabOpisow[11].kraj;
+    stolica.innerText = tabOpisow[11].stolica;
+    wladca.innerText = tabOpisow[11].wladca;
+    stabilnosc.innerText = tabOpisow[11].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1214.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[12].kraj;
-    stolica.innerText = tab[12].stolica;
-    wladca.innerText = tab[12].wladca;
-    stabilnosc.innerText = tab[12].stabilnosc;
+    kraj.innerText = tabOpisow[12].kraj;
+    stolica.innerText = tabOpisow[12].stolica;
+    wladca.innerText = tabOpisow[12].wladca;
+    stabilnosc.innerText = tabOpisow[12].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1314.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[13].kraj;
-    stolica.innerText = tab[13].stolica;
-    wladca.innerText = tab[13].wladca;
-    stabilnosc.innerText = tab[13].stabilnosc;
+    kraj.innerText = tabOpisow[13].kraj;
+    stolica.innerText = tabOpisow[13].stolica;
+    wladca.innerText = tabOpisow[13].wladca;
+    stabilnosc.innerText = tabOpisow[13].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1515.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[14].kraj;
-    stolica.innerText = tab[14].stolica;
-    wladca.innerText = tab[14].wladca;
-    stabilnosc.innerText = tab[14].stabilnosc;
+    kraj.innerText = tabOpisow[14].kraj;
+    stolica.innerText = tabOpisow[14].stolica;
+    wladca.innerText = tabOpisow[14].wladca;
+    stabilnosc.innerText = tabOpisow[14].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h0617.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[8].kraj;
-    stolica.innerText = tab[8].stolica;
-    wladca.innerText = tab[8].wladca;
-    stabilnosc.innerText = tab[8].stabilnosc;
+    kraj.innerText = tabOpisow[8].kraj;
+    stolica.innerText = tabOpisow[8].stolica;
+    wladca.innerText = tabOpisow[8].wladca;
+    stabilnosc.innerText = tabOpisow[8].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h0818.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[10].kraj;
-    stolica.innerText = tab[10].stolica;
-    wladca.innerText = tab[10].wladca;
-    stabilnosc.innerText = tab[10].stabilnosc;
+    kraj.innerText = tabOpisow[10].kraj;
+    stolica.innerText = tabOpisow[10].stolica;
+    wladca.innerText = tabOpisow[10].wladca;
+    stabilnosc.innerText = tabOpisow[10].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1918.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[19].kraj;
-    stolica.innerText = tab[19].stolica;
-    wladca.innerText = tab[19].wladca;
-    stabilnosc.innerText = tab[19].stabilnosc;
+    kraj.innerText = tabOpisow[19].kraj;
+    stolica.innerText = tabOpisow[19].stolica;
+    wladca.innerText = tabOpisow[19].wladca;
+    stabilnosc.innerText = tabOpisow[19].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h0620.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[9].kraj;
-    stolica.innerText = tab[9].stolica;
-    wladca.innerText = tab[9].wladca;
-    stabilnosc.innerText = tab[9].stabilnosc;
+    kraj.innerText = tabOpisow[9].kraj;
+    stolica.innerText = tabOpisow[9].stolica;
+    wladca.innerText = tabOpisow[9].wladca;
+    stabilnosc.innerText = tabOpisow[9].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1824.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[16].kraj;
-    stolica.innerText = tab[16].stolica;
-    wladca.innerText = tab[16].wladca;
-    stabilnosc.innerText = tab[16].stabilnosc;
+    kraj.innerText = tabOpisow[16].kraj;
+    stolica.innerText = tabOpisow[16].stolica;
+    wladca.innerText = tabOpisow[16].wladca;
+    stabilnosc.innerText = tabOpisow[16].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1924.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[17].kraj;
-    stolica.innerText = tab[17].stolica;
-    wladca.innerText = tab[17].wladca;
-    stabilnosc.innerText = tab[17].stabilnosc;
+    kraj.innerText = tabOpisow[17].kraj;
+    stolica.innerText = tabOpisow[17].stolica;
+    wladca.innerText = tabOpisow[17].wladca;
+    stabilnosc.innerText = tabOpisow[17].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1626.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[15].kraj;
-    stolica.innerText = tab[15].stolica;
-    wladca.innerText = tab[15].wladca;
-    stabilnosc.innerText = tab[15].stabilnosc;
+    kraj.innerText = tabOpisow[15].kraj;
+    stolica.innerText = tabOpisow[15].stolica;
+    wladca.innerText = tabOpisow[15].wladca;
+    stabilnosc.innerText = tabOpisow[15].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h2126.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[18].kraj;
-    stolica.innerText = tab[18].stolica;
-    wladca.innerText = tab[18].wladca;
-    stabilnosc.innerText = tab[18].stabilnosc;
+    kraj.innerText = tabOpisow[18].kraj;
+    stolica.innerText = tabOpisow[18].stolica;
+    wladca.innerText = tabOpisow[18].wladca;
+    stabilnosc.innerText = tabOpisow[18].stabilnosc;
+    document.getElementById('opis').style.color = "#000000";
 });
 h1111.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[4].kraj;
-    stolica.innerText = tab[4].stolica;
-    wladca.innerText = tab[4].wladca;
-    stabilnosc.innerText = tab[4].stabilnosc;
+    kraj.innerText = tabOpisow[4].kraj;
+    stolica.innerText = tabOpisow[4].stolica;
+    wladca.innerText = tabOpisow[4].wladca;
+    stabilnosc.innerText = tabOpisow[4].stabilnosc;
+    document.getElementById('opis').style.color = "#005600";
 });
 h1512.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[5].kraj;
-    stolica.innerText = tab[5].stolica;
-    wladca.innerText = tab[5].wladca;
-    stabilnosc.innerText = tab[5].stabilnosc;
+    kraj.innerText = tabOpisow[5].kraj;
+    stolica.innerText = tabOpisow[5].stolica;
+    wladca.innerText = tabOpisow[5].wladca;
+    stabilnosc.innerText = tabOpisow[5].stabilnosc;
+    document.getElementById('opis').style.color = "#005600";
+    
 });
 h0724.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[6].kraj;
-    stolica.innerText = tab[6].stolica;
-    wladca.innerText = tab[6].wladca;
-    stabilnosc.innerText = tab[6].stabilnosc;
+    kraj.innerText = tabOpisow[6].kraj;
+    stolica.innerText = tabOpisow[6].stolica;
+    wladca.innerText = tabOpisow[6].wladca;
+    stabilnosc.innerText = tabOpisow[6].stabilnosc;
+    document.getElementById('opis').style.color = "#005600";
 });
 h1724.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[7].kraj;
-    stolica.innerText = tab[7].stolica;
-    wladca.innerText = tab[7].wladca;
-    stabilnosc.innerText = tab[7].stabilnosc;
+    kraj.innerText = tabOpisow[7].kraj;
+    stolica.innerText = tabOpisow[7].stolica;
+    wladca.innerText = tabOpisow[7].wladca;
+    stabilnosc.innerText = tabOpisow[7].stabilnosc;
+    document.getElementById('opis').style.color = "#005600";
 });
 h1118.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[0].kraj;
-    stolica.innerText = tab[0].stolica;
-    wladca.innerText = tab[0].wladca;
-    stabilnosc.innerText = tab[0].stabilnosc;
+    kraj.innerText = tabOpisow[0].kraj;
+    stolica.innerText = tabOpisow[0].stolica;
+    wladca.innerText = tabOpisow[0].wladca;
+    stabilnosc.innerText = tabOpisow[0].stabilnosc;
+    document.getElementById('opis').style.color = "#a00000";
 });
 h1520.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[1].kraj;
-    stolica.innerText = tab[1].stolica;
-    wladca.innerText = tab[1].wladca;
-    stabilnosc.innerText = tab[1].stabilnosc;
+    kraj.innerText = tabOpisow[1].kraj;
+    stolica.innerText = tabOpisow[1].stolica;
+    wladca.innerText = tabOpisow[1].wladca;
+    stabilnosc.innerText = tabOpisow[1].stabilnosc;
+    document.getElementById('opis').style.color = "#a00000";
 });
 h1726.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[3].kraj;
-    stolica.innerText = tab[3].stolica;
-    wladca.innerText = tab[3].wladca;
-    stabilnosc.innerText = tab[3].stabilnosc;
+    kraj.innerText = tabOpisow[3].kraj;
+    stolica.innerText = tabOpisow[3].stolica;
+    wladca.innerText = tabOpisow[3].wladca;
+    stabilnosc.innerText = tabOpisow[3].stabilnosc;
+    document.getElementById('opis').style.color = "#a00000";
 });
 h1828.addEventListener('mouseenter', e => { 
-    kraj.innerText = tab[2].kraj;
-    stolica.innerText = tab[2].stolica;
-    wladca.innerText = tab[2].wladca;
-    stabilnosc.innerText = tab[2].stabilnosc;
+    kraj.innerText = tabOpisow[2].kraj;
+    stolica.innerText = tabOpisow[2].stolica;
+    wladca.innerText = tabOpisow[2].wladca;
+    stabilnosc.innerText = tabOpisow[2].stabilnosc;
+    document.getElementById('opis').style.color = "#a00000";
 });
 
 

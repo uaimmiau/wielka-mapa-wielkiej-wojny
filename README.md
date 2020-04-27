@@ -1,1 +1,5 @@
-# wielka-mapa-wielkiej-wojny
+# Wielka mapa wielkiej wojny
+W reżyserii:
+## Kroomka
+W wykonaniu: 
+## Uaimmiau

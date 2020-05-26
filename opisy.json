@@ -100,8 +100,8 @@
     {
         "kraj": "Szwajcaria",
         "stolica": "Berno",
-        "wladca": "Prezydent Arthur Hoffmann",
-        "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
+        "wladca": "Rada Związkowa",
+        "stabilnosc": "Ściśle neutralna"
     },
     {
         "kraj": "Rumunia",
@@ -120,7 +120,7 @@
     {
         "kraj": "Albania",
         "stolica": "Tirana",
-        "wladca": "Książe Wilhelm I",
+        "wladca": "Książę Wilhelm I",
         "stabilnosc": "Ogląda wojnę z bezpiecznej odległości"
 
     },    

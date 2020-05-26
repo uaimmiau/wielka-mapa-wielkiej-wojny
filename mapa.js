@@ -1,5 +1,5 @@
 var i = 0;
-
+//test
 //Stolice Neutralne
 var tabStoliceNeutralne = ["h2006","h1908","h1114","h1214", "h1314", "h1515", "h0617", "h0818", "h1918", "h0620", "h1824", "h1924", "h1626", "h2126"];
 var liczbaStolicNeutralnych = tabStoliceNeutralne.length;

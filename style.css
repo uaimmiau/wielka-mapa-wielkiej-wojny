@@ -1,0 +1,318 @@
+:root
+{
+    font-size: 62.5%;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+body
+{
+    background-color: #ccc;
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(img/concrete-texture.png);
+}
+/* MAPA */
+#mapa
+{
+    display: flex;
+    padding: 2rem;
+    width: 1070px;
+}
+#container
+{
+    display: flex;
+}
+/* Pojedynczy hex */
+.pojemniczek
+{
+    height: 4rem;
+    width: 4rem;
+}
+.pojemniczek a
+{
+    display: block;
+    position: relative;
+    bottom: 1.6rem;
+    left: 0.8rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+/* Kolumny */
+.col
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.coln
+{
+    top: 2rem;
+}
+
+/* LEGENDA KLAS */
+/* sea - morze */
+/* dse - morskie przejscie do koloni */
+/* voi - pustka */
+/* lan - ziemia */
+/* lpk - lądowe przejście do koloni */
+
+/* Kolorowanie wstęne */
+.sea{
+    background-image: url(img/sea.png);
+}
+.lan{
+    background-image: url(img/test.png);
+}
+.dse{
+    background-image: url(img/dse.png);
+}
+.lpk{
+    background-image: url(img/lpk.png);
+}
+.voi{
+    background-image: url(img/voi.png);
+}
+.dse + a{
+    color: #8BE4FF;
+}
+
+/* UPOŚLEDZONY BRUTE FORCE PROSZE PATRZEC NA WLASNĄ ODPOWIEDZIALNOŚĆ */
+/* nie umiem w js okej? */
+#col2{right: 1rem;}
+#col3{right: 2rem;}
+#col4{right:3rem;}
+#col5{right:4rem;}
+#col6{right:5rem;}
+#col7{right:6rem;}
+#col8{right:7rem;}
+#col9{right:8rem;}
+#col10{right:9rem;}
+#col11{right:10rem;}
+#col12{right:11rem;}
+#col13{right:12rem;}
+#col14{right:13rem;}
+#col15{right:14rem;}
+#col16{right:15rem;}
+#col17{right:16rem;}
+#col18{right:17rem;}
+#col19{right:18rem;}
+#col20{right:19rem;}
+#col21{right:20rem;}
+#col22{right:21rem;}
+#col23{right:22rem;}
+#col24{right:23rem;}
+#col25{right:24rem;}
+#col26{right:25rem;}
+#col27{right:26rem;}
+#col28{right:27rem;}
+#col29{right:28rem;}
+#col30{right:29rem;}
+#col31{right:30rem;}
+#col32{right:31rem;}
+#col33{right:32rem;}
+#col34{right:33rem;}
+#col35{right:34rem;}
+
+/* --------------------------------------------------------------------------------- */
+/* -----------------------------------------KRAJE----------------------------------- */
+/* Niemcy */
+#h1015,	#h1115,	#h1215,	#h1315,	#h1415,
+#h0916,	#h1016,	#h1116,	#h1216,	#h1316,	#h1416,	#h1516,
+#h0917,	#h1017,	#h1117,	#h1217,	#h1317,	#h1417,
+#h1018,	#h1118,	#h1218, #h1418,	#h1518,
+#h1019,	#h1119,
+#h1020,	#h1120,	#h1220,
+#h0921,	#h1021,
+#h0922,	#h1022{
+    background-image: url(img/niemcy.png);
+}
+/* Austria */
+#h1517,	#h1617,
+#h1318,#h1618,
+#h1219,	#h1319,	#h1419,	#h1519,	#h1619,
+#h1320,	#h1420,	#h1520,	#h1620,	#h1720,
+#h1321,	#h1421,	#h1521,	#h1621,
+#h1322,	#h1422,	#h1522,	#h1622,	#h1722,
+#h1223,	#h1323,	#h1423,	#h1523,	#h1623,	#h1723,
+#h1324,	#h1424,	#h1524,	#h1624,
+#h1325,	#h1425,	#h1525,
+#h1526{
+    background-image: url(img/austria.png);
+}
+/* Turcja */
+#h1828,
+#h1730,	#h1830,	#h1930,
+#h1631,	#h1731,	#h1831,
+#h1732,	#h1832,	#h1932,
+#h1633,	#h1733,	#h1833,
+#h1434,	#h1534,	#h1634,	#h1734,	#h1834,	#h1934,	#h2034,	#h2134,
+#h1335,	#h1435,	#h1535,	#h1635,	#h1735,	#h1835{
+    background-image: url(img/turcja.png);
+}
+/* Bułgaria */
+#h1726,	#h1826,
+#h1727,	#h1827{
+    background-image: url(img/bulgaria.png);
+}
+/* Francja */
+#h1409,
+#h1410,	#h1510,	#h1610,	#h1710,
+#h1411,	#h1511,	#h1611,	#h1711,
+#h1312,	#h1412,	#h1512,	#h1612,	#h1712,
+#h1313,	#h1413,	#h1513,	#h1613,
+#h1414,	#h1514,	#h1614,	#h1714{
+    background-image: url(img/francja.png);
+}
+/* Wielka Brytania */
+#h1006,	#h1106,
+#h0907,	#h1007,
+#h0909,#h1109,
+#h0810,	#h0910,	#h1010,	#h1110,
+#h0811,	#h0911,	#h1011,	#h1111{
+    background-image: url(img/brytania.png);
+}
+/* Serbia */
+#h1724,
+#h1625,	#h1725,	#h1825{
+    background-image: url(img/serbia.png);
+}
+/* Rosja */
+#h1121,	#h1221,
+#h0522, #h1122, #h1222,
+#h0423,	#h0523,	#h0723,	#h0823,	#h0923,	#h1023,	#h1123,
+#h0324,	#h0424,	#h0524,	#h0624,	#h0724,	#h0824,	#h0924,	#h1024,	#h1124,	#h1224,
+#h0525,	#h0625,	#h0725,	#h0825,	#h0925,	#h1025,	#h1125,	#h1225,
+#h0926,	#h1026,	#h1126,	#h1226,	#h1326,
+#h0927,	#h1027,	#h1127,	#h1227,	#h1327,
+#h1028,	#h1128,	#h1228,
+#h0929,	#h1029,	#h1129,	#h1229,
+#h1030,	#h1130,	#h1230,	#h1330,
+#h1031,	#h1131,
+#h1132,	#h1232,
+#h1133,	#h1233,
+#h1234,	#h1334,
+#h1235{
+    background-image: url(img/rosja.png);
+}
+/* Hiszpania */
+#h1806,#h2306,
+#h1707,	#h1807,	#h1907,	#h2007,	#h2107,	#h2307,
+#h1808,	#h1908,	#h2008,	#h2108,
+#h1709,	#h1809,	#h1909,	#h2009,
+#h1810,	#h1910,
+#h1811{
+    background-image: url(img/hiszpania.png);
+}
+/* Holandia */
+#h1113,
+#h1014,	#h1114{
+    background-image: url(img/holandia.png);
+}
+/* Grecja */
+#h2025,
+#h1926,	#h2026,	#h2126,
+#h2128,
+#h2029{
+    background-image: url(img/grecja.png);
+}
+/* Szwajcaria */
+#h1515,
+#h1616{
+    background-image: url(img/szwajcaria.png);
+}
+/* Szwecja */
+#h0418,	#h0518,	#h0618,
+#h0319,	#h0419,	#h0519,	#h0619,
+#h0320,	#h0420,	#h0620,	#h0720,	#h0820,
+#h0321,
+#h0322,	#h0422,
+#h0323{
+    background-image: url(img/szwecja.png);
+}
+/* Włochy */
+#h1615,	#h1715,
+#h1716,	#h1816, #h2216,
+#h1717,	#h1817, #h2117,
+#h1718,	#h1818,	#h1918,
+#h1819,	#h1919,	#h2019,	#h2119,
+#h1920,	#h2020,
+#h2021{
+    background-image: url(img/wlochy.png);
+}
+/* Albania */
+#h1924,
+#h1925{
+    background-image: url(img/albania.png);
+}
+/* Czarnogóra i Luksemburg (nie wiem czemu takie same, pytajcie kromka) */
+#h1824,
+#h1314{
+    background-image: url(img/czarnogora_luksemburg.png);
+}
+/* Belgia */
+#h1213,
+#h1214{
+    background-image: url(img/belgia.png);
+}
+/* Dania (z Islandią jako częścią Danii) */
+#h0816,
+#h0818,
+#h0203,	#h0303,
+#h0304{
+    background-image: url(img/dania.png);
+}
+/* Portugalia */
+#h1906,	#h2006,	#h2106{
+    background-image: url(img/rumunia.png);
+}
+/* Rumunia */
+#h1426, #h1626,
+#h1427,	#h1527,	#h1627{
+    background-image: url(img/rumunia.png);
+}
+/* Norwegia */
+#h0516,	#h0616,
+#h0317,	#h0417,	#h0517,	#h0617,
+#h0318,
+#h0219,
+#h0220,
+#h0221,
+#h0222,
+#h0223{
+    background-image: url(img/belgia.png);
+}
+
+/* mmm Stopka */
+hr{
+    margin: 1rem;
+}
+#stopka p{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+/* OPISY */
+
+#opis{
+    min-width: 40rem;
+    height: 21rem;
+    margin-top: 6rem;
+    border: 1px solid #333;
+    border-radius: 1%;
+    padding: 2rem;
+    background-color: rgba(100, 100, 100, 0.3);
+}
+h1{
+    font-size: 5.8rem;
+}
+h2{
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}

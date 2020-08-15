@@ -1,54 +1,54 @@
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 body {
-    background-color: #ccc;
-    /* Background pattern from Toptal Subtle Patterns */
-    background-image: url(img/concrete-texture.png);
+  background-color: #ccc;
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url(img/concrete-texture.png);
 }
 
 /* MAPA */
 #mapa {
-    display: flex;
-    padding: 2rem;
-    width: 1070px;
+  display: flex;
+  padding: 2rem;
+  width: 1070px;
 }
 
 #container {
-    display: flex;
+  display: flex;
 }
 
 /* Pojedynczy hex */
 .pojemniczek {
-    height: 4rem;
-    width: 4rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .pojemniczek a {
-    display: block;
-    position: relative;
-    bottom: 1.6rem;
-    left: 0.8rem;
-    color: #333;
-    font-size: 0.9rem;
+  display: block;
+  position: relative;
+  bottom: 1.6rem;
+  left: 0.8rem;
+  color: #333;
+  font-size: 0.9rem;
 }
 
 /* Kolumny */
 .col {
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .coln {
-    top: 2rem;
+  top: 2rem;
 }
 
 /* LEGENDA KLAS */
@@ -60,165 +60,165 @@ body {
 
 /* Kolorowanie wstęne */
 .sea {
-    background-image: url(img/sea.png);
+  background-image: url(img/sea.png);
 }
 
 .lan {
-    background-image: url(img/test.png);
+  background-image: url(img/test.png);
 }
 
 .dse {
-    background-image: url(img/dse.png);
+  background-image: url(img/dse.png);
 }
 
 .lpk {
-    background-image: url(img/lpk.png);
+  background-image: url(img/lpk.png);
 }
 
 .voi {
-    background-image: url(img/voi.png);
+  background-image: url(img/voi.png);
 }
 
-.dse+a {
-    color: #8BE4FF;
+.dse + a {
+  color: #8be4ff;
 }
 
 /* UPOŚLEDZONY BRUTE FORCE PROSZE PATRZEC NA WLASNĄ ODPOWIEDZIALNOŚĆ */
 /* nie umiem w js okej? */
 #col2 {
-    right: 1rem;
+  right: 1rem;
 }
 
 #col3 {
-    right: 2rem;
+  right: 2rem;
 }
 
 #col4 {
-    right: 3rem;
+  right: 3rem;
 }
 
 #col5 {
-    right: 4rem;
+  right: 4rem;
 }
 
 #col6 {
-    right: 5rem;
+  right: 5rem;
 }
 
 #col7 {
-    right: 6rem;
+  right: 6rem;
 }
 
 #col8 {
-    right: 7rem;
+  right: 7rem;
 }
 
 #col9 {
-    right: 8rem;
+  right: 8rem;
 }
 
 #col10 {
-    right: 9rem;
+  right: 9rem;
 }
 
 #col11 {
-    right: 10rem;
+  right: 10rem;
 }
 
 #col12 {
-    right: 11rem;
+  right: 11rem;
 }
 
 #col13 {
-    right: 12rem;
+  right: 12rem;
 }
 
 #col14 {
-    right: 13rem;
+  right: 13rem;
 }
 
 #col15 {
-    right: 14rem;
+  right: 14rem;
 }
 
 #col16 {
-    right: 15rem;
+  right: 15rem;
 }
 
 #col17 {
-    right: 16rem;
+  right: 16rem;
 }
 
 #col18 {
-    right: 17rem;
+  right: 17rem;
 }
 
 #col19 {
-    right: 18rem;
+  right: 18rem;
 }
 
 #col20 {
-    right: 19rem;
+  right: 19rem;
 }
 
 #col21 {
-    right: 20rem;
+  right: 20rem;
 }
 
 #col22 {
-    right: 21rem;
+  right: 21rem;
 }
 
 #col23 {
-    right: 22rem;
+  right: 22rem;
 }
 
 #col24 {
-    right: 23rem;
+  right: 23rem;
 }
 
 #col25 {
-    right: 24rem;
+  right: 24rem;
 }
 
 #col26 {
-    right: 25rem;
+  right: 25rem;
 }
 
 #col27 {
-    right: 26rem;
+  right: 26rem;
 }
 
 #col28 {
-    right: 27rem;
+  right: 27rem;
 }
 
 #col29 {
-    right: 28rem;
+  right: 28rem;
 }
 
 #col30 {
-    right: 29rem;
+  right: 29rem;
 }
 
 #col31 {
-    right: 30rem;
+  right: 30rem;
 }
 
 #col32 {
-    right: 31rem;
+  right: 31rem;
 }
 
 #col33 {
-    right: 32rem;
+  right: 32rem;
 }
 
 #col34 {
-    right: 33rem;
+  right: 33rem;
 }
 
 #col35 {
-    right: 34rem;
+  right: 34rem;
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -253,10 +253,8 @@ body {
 #h1120,
 #h1220,
 #h0921,
-#h1021,
-#h0922,
-#h1022 {
-    background-image: url(img/niemcy.png);
+#h0922 {
+  background-image: url(img/niemcy.png);
 }
 
 /* Austria */
@@ -298,7 +296,7 @@ body {
 #h1525,
 #h1526,
 #h1724 {
-    background-image: url(img/austria.png);
+  background-image: url(img/austria.png);
 }
 
 /* Turcja */
@@ -329,7 +327,7 @@ body {
 #h1635,
 #h1735,
 #h1835 {
-    background-image: url(img/turcja.png);
+  background-image: url(img/turcja.png);
 }
 
 /* Bułgaria */
@@ -337,7 +335,7 @@ body {
 #h1826,
 #h1727,
 #h1827 {
-    background-image: url(img/bulgaria.png);
+  background-image: url(img/bulgaria.png);
 }
 
 /* Francja */
@@ -363,7 +361,7 @@ body {
 #h1514,
 #h1614,
 #h1714 {
-    background-image: url(img/francja.png);
+  background-image: url(img/francja.png);
 }
 
 /* Wielka Brytania */
@@ -381,14 +379,14 @@ body {
 #h0911,
 #h1011,
 #h1111 {
-    background-image: url(img/brytania.png);
+  background-image: url(img/brytania.png);
 }
 
 /* Serbia */
 #h1625,
 #h1725,
 #h1825 {
-    background-image: url(img/serbia.png);
+  background-image: url(img/serbia.png);
 }
 
 /* Rosja */
@@ -451,8 +449,10 @@ body {
 #h1233,
 #h1234,
 #h1334,
-#h1235 {
-    background-image: url(img/rosja.png);
+#h1235,
+#h1021,
+#h1022 {
+  background-image: url(img/rosja.png);
 }
 
 /* Hiszpania */
@@ -475,14 +475,14 @@ body {
 #h1810,
 #h1910,
 #h1811 {
-    background-image: url(img/hiszpania.png);
+  background-image: url(img/hiszpania.png);
 }
 
 /* Holandia */
 #h1113,
 #h1014,
 #h1114 {
-    background-image: url(img/holandia.png);
+  background-image: url(img/holandia.png);
 }
 
 /* Grecja */
@@ -492,13 +492,13 @@ body {
 #h2126,
 #h2128,
 #h2029 {
-    background-image: url(img/grecja.png);
+  background-image: url(img/grecja.png);
 }
 
 /* Szwajcaria */
 #h1515,
 #h1616 {
-    background-image: url(img/szwajcaria.png);
+  background-image: url(img/szwajcaria.png);
 }
 
 /* Szwecja */
@@ -518,7 +518,7 @@ body {
 #h0322,
 #h0422,
 #h0323 {
-    background-image: url(img/szwecja.png);
+  background-image: url(img/szwecja.png);
 }
 
 /* Włochy */
@@ -540,25 +540,25 @@ body {
 #h1920,
 #h2020,
 #h2021 {
-    background-image: url(img/wlochy.png);
+  background-image: url(img/wlochy.png);
 }
 
 /* Albania */
 #h1924,
 #h1925 {
-    background-image: url(img/albania.png);
+  background-image: url(img/albania.png);
 }
 
 /* Czarnogóra i Luksemburg (nie wiem czemu takie same, pytajcie kromka) */
 #h1824,
 #h1314 {
-    background-image: url(img/czarnogora_luksemburg.png);
+  background-image: url(img/czarnogora_luksemburg.png);
 }
 
 /* Belgia */
 #h1213,
 #h1214 {
-    background-image: url(img/belgia.png);
+  background-image: url(img/belgia.png);
 }
 
 /* Dania (z Islandią jako częścią Danii) */
@@ -567,14 +567,14 @@ body {
 #h0203,
 #h0303,
 #h0304 {
-    background-image: url(img/dania.png);
+  background-image: url(img/dania.png);
 }
 
 /* Portugalia */
 #h1906,
 #h2006,
 #h2106 {
-    background-image: url(img/rumunia.png);
+  background-image: url(img/rumunia.png);
 }
 
 /* Rumunia */
@@ -583,7 +583,7 @@ body {
 #h1427,
 #h1527,
 #h1627 {
-    background-image: url(img/rumunia.png);
+  background-image: url(img/rumunia.png);
 }
 
 /* Norwegia */
@@ -599,41 +599,41 @@ body {
 #h0221,
 #h0222,
 #h0223 {
-    background-image: url(img/belgia.png);
+  background-image: url(img/belgia.png);
 }
 
 /* mmm Stopka */
 hr {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 #stopka p {
-    font-size: 1.7rem;
-    padding-bottom: 1rem;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
 }
 
 /* OPISY */
 
 #opis {
-    min-width: 40rem;
-    height: 21rem;
-    margin-top: 6rem;
-    border: 1px solid #333;
-    border-radius: 1%;
-    padding: 2rem;
-    background-color: rgba(100, 100, 100, 0.3);
+  min-width: 40rem;
+  height: 21rem;
+  margin-top: 6rem;
+  border: 1px solid #333;
+  border-radius: 1%;
+  padding: 2rem;
+  background-color: rgba(100, 100, 100, 0.3);
 }
 
 h1 {
-    font-size: 5.8rem;
+  font-size: 5.8rem;
 }
 
 h2 {
-    font-size: 3.8rem;
-    margin-bottom: 1rem;
+  font-size: 3.8rem;
+  margin-bottom: 1rem;
 }
 
 p {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
 }

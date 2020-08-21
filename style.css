@@ -79,7 +79,7 @@ body {
   background-image: url(img/voi.png);
 }
 
-.dse + a {
+.dse+a {
   color: #8be4ff;
 }
 
@@ -247,13 +247,9 @@ body {
 #h1218,
 #h1418,
 #h1518,
-#h1019,
 #h1119,
-#h1020,
 #h1120,
-#h1220,
-#h0921,
-#h0922 {
+#h1220 {
   background-image: url(img/niemcy.png);
 }
 
@@ -332,7 +328,6 @@ body {
 
 /* Bułgaria */
 #h1726,
-#h1826,
 #h1727,
 #h1827 {
   background-image: url(img/bulgaria.png);
@@ -385,6 +380,7 @@ body {
 /* Serbia */
 #h1625,
 #h1725,
+#h1826,
 #h1825 {
   background-image: url(img/serbia.png);
 }
@@ -436,6 +432,8 @@ body {
 #h0929,
 #h1029,
 #h1129,
+#h1019,
+#h1020,
 #h1229,
 #h1030,
 #h1130,
@@ -451,7 +449,9 @@ body {
 #h1334,
 #h1235,
 #h1021,
-#h1022 {
+#h1022,
+#h0921,
+#h0922 {
   background-image: url(img/rosja.png);
 }
 

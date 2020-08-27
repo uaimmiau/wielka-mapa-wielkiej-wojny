@@ -79,7 +79,7 @@ body {
   background-image: url(img/voi.png);
 }
 
-.dse+a {
+.dse + a {
   color: #8be4ff;
 }
 
@@ -226,6 +226,7 @@ body {
 /* Niemcy */
 #h1015,
 #h1115,
+#h1221,
 #h1215,
 #h1315,
 #h1415,
@@ -287,9 +288,6 @@ body {
 #h1424,
 #h1524,
 #h1624,
-#h1325,
-#h1425,
-#h1525,
 #h1526,
 #h1724 {
   background-image: url(img/austria.png);
@@ -386,8 +384,10 @@ body {
 }
 
 /* Rosja */
+#h1325,
+#h1425,
+#h1525,
 #h1121,
-#h1221,
 #h0522,
 #h1122,
 #h1222,

@@ -79,7 +79,7 @@ body {
   background-image: url(img/voi.png);
 }
 
-.dse + a {
+.dse+a {
   color: #8be4ff;
 }
 
@@ -376,7 +376,7 @@ body {
 }
 
 /* Serbia */
-#h1625,
+#h1726,
 #h1725,
 #h1826,
 #h1825 {

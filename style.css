@@ -79,7 +79,7 @@ body {
   background-image: url(img/voi.png);
 }
 
-.dse+a {
+.dse + a {
   color: #8be4ff;
 }
 
@@ -327,7 +327,9 @@ body {
 
 /* Bułgaria */
 #h1727,
-#h1827 {
+#h1827,
+#h1726,
+#h1826 {
   background-image: url(img/bulgaria.png);
 }
 
@@ -376,9 +378,8 @@ body {
 }
 
 /* Serbia */
-#h1726,
+
 #h1725,
-#h1826,
 #h1825 {
   background-image: url(img/serbia.png);
 }
